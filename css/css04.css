@@ -1,0 +1,18 @@
+.bordered {
+	border: 3px solid black;
+	background: lightgrey;
+}
+#p1, #p2 {
+	border: 3px solid black;
+	padding: 5px 0px 5px 0px;
+}
+#p3 {
+	padding: 7px 0px 7px 0px;
+}
+.bordered-dashed {
+	border: 3px dashed blue;
+}
+.bordered-dotted {
+	background: lightgrey;
+	border: 3px dotted red;
+}

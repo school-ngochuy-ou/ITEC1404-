@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS 08</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style type="text/css">
+		body {
+			zoom: 2;
+			-moz-transform: scale(2);
+			-moz-transform-origin: 0 0;
+		}
+		h1 {
+			color: green;
+		}
+		.menu {
+			background: lightblue;
+			padding: 10px;
+			display: flex;
+		}
+		.menu > div {
+			margin-right: auto;
+		}
+		.menu > div.nav {
+			line-height: 32px;
+		}
+		.register {
+			background: lightblue;
+			color: white;
+			border-radius: 5px;
+			padding: 7px;
+			border: none;
+			margin-top: 10px;
+			cursor: pointer;
+		}
+		.menu > div:hover > *, .register:hover {
+			background: white;
+			color: lightblue;
+		}
+		.menu h2 {
+			color: khaki;
+			margin: 0px;
+			text-shadow: #999999 7px 6px 3px;
+		}
+		a {
+			text-decoration: none;
+		}
+		:visited {
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<h1>Diễn đàn học lập trình</h1>
+	<div class="menu">
+		<div>
+			<a href="http://cunghoclaptrinh.com" target="_blank">
+				<h2>cunghoclaptrinh.com</h2>
+			</a>
+		</div>
+		<div class="nav">
+			<a href="">HTML</a>
+		</div>
+		<div class="nav">
+			<a href="">CSS</a>
+		</div>
+		<div class="nav">
+			<a href="">Javascript</a>
+		</div>
+		<div class="nav">
+			<a href="">Login</a>
+		</div>
+	</div>
+	<button class="register">Đăng ký</button>
+	<p>
+		<a href="../css.html">Về mục lục chính</a>
+	</p>
+</body>
+</html>

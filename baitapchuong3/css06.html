@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS 06</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style type="text/css">
+		#div1, #div2, #div3 {
+			width: 200px;
+			height: 110px;
+			background: yellow;
+			border: 2px solid black;
+		}
+		#div2, #div3 {
+			margin-top: 25px;
+			line-height: 20px;
+		}
+		#div2 {
+			overflow: hidden;
+		}
+		#div3 {
+			overflow: scroll;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead></thead>
+		<tbody>
+			<tr>
+				<td>				
+					<div id="div1">
+						Văn bản trong phần tử div 1 sử dụng các thuộc tính mặc định, phần văn bản thừa sẽ tràn ra ngoài. Văn bản trong phần tử div 1 sử dụng các thuộc tính mặc định, phần văn bản thừa sẽ tràn ra ngoài.
+					</div>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>
+					<div id="div2">
+						Văn bản trong phần tử div 2 có thuộc tính line-height:20px, overflow:hidden; không có thanh cuộn, phần văn bản thừa sẽ bị ẩn.
+					</div>
+				</td>
+				<td>
+					<div id="div3">
+						Văn bản trong phần tử div 3 có thuộc tính overflow:Scroll; có thanh cuộn. Văn bản trong phần tử div 3 có thuộc tính overflow:Scroll; có thanh cuộn. 
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<a href="../css.html">Về mục lục chính</a>
+	</p>
+</body>
+</html>
