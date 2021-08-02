@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IT</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	<table border="1px">
+		<thead>
+			<tr>
+				<td colspan="2">
+					<h1 align="center">Các phép tính số học</h1>
+				</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td width="150px">Số thứ 1</td>
+				<td width="300px">
+					<input type="number" id="a" />
+				</td>
+			</tr>
+			<tr>
+				<td>Số thứ 2</td>
+				<td>
+					<input type="number" id="b" />
+				</td>
+			</tr>
+			<tr>
+				<td>Chọn phép toán</td>
+				<td>
+					<input type="radio" name="op" checked="checked" onclick="changeOp('ADD')" />Cộng<br/>
+					<input type="radio" name="op" onclick="changeOp('SUB')" />Trừ<br/>
+					<input type="radio" name="op" onclick="changeOp('MUL')" />Nhân<br/>
+					<input type="radio" name="op" onclick="changeOp('DIV')" />Chia
+				</td>
+			</tr>
+			<tr>
+				<td><button onclick="solve()">Thực hiện</button></td>
+				<td>
+					<input type="number" id="result" value="" disabled="disabled" />
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<a href="../javascript.html">Về mục lục chính</a>
+	</p>
+	<script type="text/javascript" src="../js/js04.js"></script>
+</body>
+</html>
